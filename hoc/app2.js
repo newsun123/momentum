@@ -1,7 +1,9 @@
 const title = document.querySelector(".hello h1");
 
-console.log(title);
+function handleTitleClick(){
+  title.innerText = "change";
+}
 
-const titles = document.querySelectorAll(".hello h1")
-
-console.log(titles);
+title.addEventListener("click", function(){
+  title.innerText="changee!";  
+});
