@@ -7,5 +7,7 @@ function handleTitleClick() {
     h1.className = "active";
   }
 }
-
+document.addEventListener("click" , function(){
+  h1.innerText = "hihihih";
+});
 document.addEventListener("click", handleTitleClick);
